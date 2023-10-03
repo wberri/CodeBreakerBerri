@@ -1,0 +1,17 @@
+body{
+    background-image: url("background.jpg");
+    font-family:monospace, "Lucida Console", Times, serif;
+}
+
+.intro{
+    background-color: rgb(21, 24, 24);
+    opacity: 0.9;
+    color: white;
+}
+
+.numTries{
+    background-color: rgb(21, 24, 24);
+    color: red;
+    opacity: 0.9;
+    font-size: x-large;
+}
