@@ -15,3 +15,9 @@ body{
     opacity: 0.9;
     font-size: x-large;
 }
+
+form{
+    background-color: rgb(21, 24, 24);
+    opacity: 0.9;
+    color: white;
+}

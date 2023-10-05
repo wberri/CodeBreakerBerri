@@ -17,6 +17,18 @@
         <center><p><b> NUMBER OF TRIES REMAINING: 7</b></p></center>
     </div>
 
+    <form name = "userGuess" action="" method = "GET">
+        <label for="num">GUESS HERE:</label>
+        <input type="number" id="numberGuess" name="numberGuess"><br><br>
+        <input type="button" name="button" value="Click" onClick="testResults(this.form)">
+    </form>
+
+    <div class = "response">
+        <center><p>Feedback: </p></center>
+    </div>
+
+    <script src="codeBreaker.js"></script>
+
 
 </body>
 </html>
