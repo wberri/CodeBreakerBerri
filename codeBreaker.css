@@ -14,10 +14,19 @@ body{
     color: red;
     opacity: 0.9;
     font-size: x-large;
+    text-align: center;
 }
 
 form{
     background-color: rgb(21, 24, 24);
     opacity: 0.9;
     color: white;
+}
+
+#resp{
+    background-color: rgb(21, 24, 24);
+    opacity: 0.9;
+    color: red;
+    font-size: x-large;
+    text-align: center;
 }

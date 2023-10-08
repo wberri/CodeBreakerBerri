@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codebreaker</title>
     <link rel="stylesheet" href="codeBreaker.css">
+    <link rel="icon" href="brokenlock.png" type="image/x-icon">
 </head>
 <body>
     <div class="intro">
@@ -14,7 +15,8 @@
     </div>
 
     <div class = "numTries">
-        <center><p><b> NUMBER OF TRIES REMAINING: 7</b></p></center>
+        <center><p><b> NUMBER OF TRIES REMAINING: </b></p></center>
+        <p id="numValue"> 7</p>
     </div>
 
     <form name = "userGuess" action="" method = "GET">
@@ -23,7 +25,7 @@
         <input type="button" name="button" value="Click" onClick="testResults(this.form)">
     </form>
 
-    <div class = "response">
+    <section response id="resp">
         <center><p>Feedback: </p></center>
     </div>
 
